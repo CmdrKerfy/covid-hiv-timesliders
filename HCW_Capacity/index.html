@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>D3 Mapping Timeline</title>
+	<title>Healthcare Worker Projections</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="d3.slider.css" />
 <style>
@@ -40,7 +40,7 @@ path {
 
 
 <body>
-
+<h1>HEALTHCARE STAFF CAPACITY PROJECTIONS</h1>
 <div id="slider3"></div>
 
 
@@ -49,7 +49,7 @@ path {
 var width = 960,
     height = 600;
 
-var mapPath = "/cmdoptesc/raw/4714c586f69425043ae3/us.json";
+var mapPath = "/topojson/KenyaAdmins.json";
 
 var projection = d3.geo.albersUsa()
     .scale(1280)
